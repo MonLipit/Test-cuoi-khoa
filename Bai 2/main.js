@@ -1,11 +1,25 @@
-function drawTriangle(t) {
-  for (let i = 1; i <= t; i++) {
-    for (let j = 1; j <= i; j++) {
-      console.log(j + " ");
-    }
+const input = document.querySelector(".input");
+const create = document.querySelector(".create");
+const body = document.querySelector("body");
 
-    console.log("\n");
+create.addEventListener("click", () => {
+  function generatePyramid() {
+    let totalNumberofRows = input.value;
+    let output = "";
+    for (let i = 1; i <= totalNumberofRows; i++) {
+      for (let j = 1; j <= i; j++) {
+        output += j + "  ";
+      }
+      const p = document.createElement("p");
+
+      p.innerHTML = output;
+      output = "";
+
+      body.appendChild(p);
+
+      console.log(output);
+      output = "";
+    }
   }
-}
-let t = 5;
-drawTriangle(t);
+  generatePyramid();
+});
