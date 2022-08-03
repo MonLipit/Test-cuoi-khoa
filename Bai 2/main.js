@@ -3,7 +3,7 @@ const create = document.querySelector(".create");
 const body = document.querySelector("body");
 
 create.addEventListener("click", () => {
-  function generatePyramid() {
+  function createPyramid() {
     let totalNumberofRows = input.value;
     let output = "";
     for (let i = 1; i <= totalNumberofRows; i++) {
@@ -21,5 +21,5 @@ create.addEventListener("click", () => {
       output = "";
     }
   }
-  generatePyramid();
+  createPyramid();
 });
