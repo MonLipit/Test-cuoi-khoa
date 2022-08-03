@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: absolute;
+    /* padding-left: 193px;
+    padding-right: 194px;
+    padding-top: 173px;
+    padding-bottom: 173px; */
+    width: 1213px;
+    height: 830px;
+    left: 193px;
+    top: 70px;
+    right: 193px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+.main .header{
+
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 24px;
+}
+.main .header .text{
+    width: 91px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+.main .header__bot{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+}
+.main .header__bot .search{
+   width: 327px;
+   height: 64px;
+   border: 1px solid #bfc8e6;
+   border-radius: 4px;
+   padding: 16px;
+}
+.main .text__right {
+    display: flex;
+    margin: 0 auto;
+    /* padding-top: 20px; */
+    padding-left: 160px;
+    text-align: center;
+    
+}
+.main .text__right .text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121px;
+    height: 56px;
+
+}
+.main .text__right .text-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 56px;
+    border: 1px solid #849fff;
+    border-radius: 10px;
+
+    background-color: #849fff;
+    }
+.main .text__right .text-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 56px;
+}
+/* .main .text__right .text-4{
+width: 87px;
+height: 56px;
+} */
+.main .text__right .text-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87px;
+    height: 56px;
+}
+.main .text__right .text-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 56px;
+}
+.grid-container {
+    display: grid;
+    gap: 0px 0px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    margin: 0 auto;
+    width: 1013px;
+    height: 432px;
+    /* padding-top: 70px; */
+  }
+  
+  .grid-item-1 {
+    background-color: #fbfcff;
+    border: 1px solid #fbfcff;
+
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 327px;
+    height: 208px;
+    display: flex;
+  }
+  .grid-item-1 .img{
+    width: 97px;
+    height: 97px;
+  }
+  
+  .grid-item-1 .text .name{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 20px ;
+  }
+  .grid-item-1 .text .address{
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+  }
+  .grid-item-1 .text .skill{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+  }
+.grid-item-1 .text .skill .skill-1{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-1 .text .skill .skill-2{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-2 {
+    background-color: #fbfcff;
+    border: 1px solid #bfc8e5
+    ;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 327px;
+    height: 208px;
+    display: flex;
+  }
+  .grid-item-2 .img{
+    width: 97px;
+    height: 97px;
+  }
+  
+  .grid-item-2 .text .name{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 20px ;
+  }
+  .grid-item-2 .text .address{
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+  }
+  .grid-item-2 .text .skill{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+  }
+.grid-item-2 .text .skill .skill-1{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-2 .text .skill .skill-2{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+/* 3 */
+
+.grid-item-3 {
+    background-color: #fbfcff;
+    border: 1px solid #fbfcff;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 327px;
+    height: 208px;
+    display: flex;
+  }
+  .grid-item-3 .img{
+    width: 97px;
+    height: 97px;
+  }
+  
+  .grid-item-3 .text .name{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 20px ;
+  }
+  .grid-item-3 .text .address{
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+  }
+  .grid-item-3 .text .skill{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+  }
+.grid-item-3 .text .skill .skill-1{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-3 .text .skill .skill-2{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;;
+}
+
+
+/* 4 */
+.grid-item-4 {
+    background-color: #fbfcff;
+    border: 1px solid #fbfcff;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 327px;
+    height: 208px;
+    display: flex;
+  }
+  .grid-item-4 .img{
+    width: 97px;
+    height: 97px;
+  }
+  
+  .grid-item-4 .text .name{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 20px ;
+  }
+  .grid-item-4 .text .address{
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+  }
+  .grid-item-4 .text .skill{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+  }
+.grid-item-4 .text .skill .skill-1{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+   border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-4 .text .skill .skill-2{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+/* 5 */
+.grid-item-5 {
+    background-color: #fbfcff;
+    border: 1px solid #fbfcff;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 327px;
+    height: 208px;
+    display: flex;
+  }
+  .grid-item-5 .img{
+    width: 97px;
+    height: 97px;
+  }
+  
+  .grid-item-5 .text .name{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 20px ;
+  }
+  .grid-item-5 .text .address{
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+  }
+  .grid-item-5 .text .skill{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+  }
+.grid-item-5 .text .skill .skill-1{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-5 .text .skill .skill-2{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;border-radius: 10px;
+    padding: 3px 8px;
+}
+ /* 6 */
+
+ .grid-item-6 {
+    background-color: #fbfcff;
+    border: 1px solid #fbfcff;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 327px;
+    height: 208px;
+    display: flex;
+  }
+  .grid-item-6 .img{
+    width: 97px;
+    height: 97px;
+  }
+  
+  .grid-item-6 .text .name{
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 20px ;
+  }
+  .grid-item-6 .text .address{
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+  }
+  .grid-item-6 .text .skill{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 18px;
+  }
+.grid-item-6 .text .skill .skill-1{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+.grid-item-6 .text .skill .skill-2{
+    /* padding-right: 10px; */
+   
+    border: 1px solid #bfc8e6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
